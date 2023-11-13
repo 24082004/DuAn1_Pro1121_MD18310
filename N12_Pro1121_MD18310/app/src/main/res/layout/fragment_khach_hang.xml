@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.FragmentKhachHang">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcv_khachhang"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btn_addkh"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/add"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="#00B0FF"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+
+</FrameLayout>
